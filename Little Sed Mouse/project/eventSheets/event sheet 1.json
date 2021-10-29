@@ -1,0 +1,63 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 774385671937470
+				}
+			],
+			"actions": [
+				{
+					"id": "move-to-position",
+					"objectClass": "CloudA",
+					"sid": 867545321155241,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "-400",
+						"y": "180",
+						"mode": "direct"
+					}
+				},
+				{
+					"id": "move-to-position",
+					"objectClass": "CloudC",
+					"sid": 233633795377880,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "-400",
+						"y": "170",
+						"mode": "direct"
+					}
+				},
+				{
+					"id": "move-to-position",
+					"objectClass": "CloudB",
+					"sid": 115985630718070,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "-400",
+						"y": "120",
+						"mode": "direct"
+					}
+				},
+				{
+					"id": "move-to-position",
+					"objectClass": "CloudD",
+					"sid": 256817205904519,
+					"behaviorType": "MoveTo",
+					"parameters": {
+						"x": "-400",
+						"y": "110",
+						"mode": "direct"
+					}
+				}
+			],
+			"sid": 407606773814662
+		}
+	],
+	"sid": 519793980296222
+}

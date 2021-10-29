@@ -1,0 +1,43 @@
+{
+	"name": "CloudC",
+	"plugin-id": "Sprite",
+	"sid": 471569221036227,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 136289699478649
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 681,
+						"height": 295,
+						"originX": 0.671071953010279,
+						"originY": 0.5457627118644067,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7920602,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 228374634650538,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

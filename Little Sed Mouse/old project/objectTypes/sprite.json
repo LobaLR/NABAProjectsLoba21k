@@ -1,0 +1,48 @@
+{
+	"name": "Sprite",
+	"plugin-id": "Sprite",
+	"sid": 808014539202538,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 989390009526156
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "dodge",
+			"name": "Dodge"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 109,
+						"height": 182,
+						"originX": 0.9541284403669725,
+						"originY": 0.967032967032967,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 580886,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 385686575296677,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

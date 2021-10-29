@@ -1,0 +1,37 @@
+{
+	"name": "CloudD",
+	"plugin-id": "Sprite",
+	"sid": 963147790794997,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 149,
+						"height": 83,
+						"originX": -2.261744966442953,
+						"originY": 0.42168674698795183,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3286605,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 230109155554215,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

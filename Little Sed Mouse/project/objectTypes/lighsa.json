@@ -1,0 +1,43 @@
+{
+	"name": "LighsA",
+	"plugin-id": "Sprite",
+	"sid": 796376772847783,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 198134920074371
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 107,
+						"height": 105,
+						"originX": 1.0654205607476634,
+						"originY": 0.9714285714285714,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3986114,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 669458349844109,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

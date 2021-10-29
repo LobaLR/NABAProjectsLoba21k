@@ -1,0 +1,43 @@
+{
+	"name": "CloudB",
+	"plugin-id": "Sprite",
+	"sid": 306275432618994,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "MoveTo",
+			"name": "MoveTo",
+			"sid": 175762512885886
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 365,
+						"height": 242,
+						"originX": 0.7424657534246575,
+						"originY": 0.47520661157024796,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 702482,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 166025074852248,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

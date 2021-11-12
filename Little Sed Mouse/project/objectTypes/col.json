@@ -1,36 +1,30 @@
 {
-	"name": "IngTypeA",
+	"name": "col",
 	"plugin-id": "Sprite",
-	"sid": 301479180533498,
+	"sid": 875947736481405,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [
-		{
-			"behaviorId": "Rotate",
-			"name": "Rotate",
-			"sid": 633715581206056
-		}
-	],
+	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 1080,
-						"height": 1080,
-						"originX": 0.4935185185185185,
-						"originY": 0.5009259259259259,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 2734304,
+						"imageSpriteId": 8775442,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 365847269605423,
-				"name": "Default",
+				"sid": 564356141588216,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

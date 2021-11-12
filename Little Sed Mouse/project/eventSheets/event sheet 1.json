@@ -14,10 +14,10 @@
 				{
 					"id": "move-to-position",
 					"objectClass": "CloudA",
-					"sid": 867545321155241,
+					"sid": 617007998241097,
 					"behaviorType": "MoveTo",
 					"parameters": {
-						"x": "-400",
+						"x": "-800",
 						"y": "180",
 						"mode": "direct"
 					}
@@ -25,10 +25,10 @@
 				{
 					"id": "move-to-position",
 					"objectClass": "CloudC",
-					"sid": 233633795377880,
+					"sid": 726571966279838,
 					"behaviorType": "MoveTo",
 					"parameters": {
-						"x": "-400",
+						"x": "-800",
 						"y": "170",
 						"mode": "direct"
 					}
@@ -36,10 +36,10 @@
 				{
 					"id": "move-to-position",
 					"objectClass": "CloudB",
-					"sid": 115985630718070,
+					"sid": 778616538499499,
 					"behaviorType": "MoveTo",
 					"parameters": {
-						"x": "-400",
+						"x": "-800",
 						"y": "120",
 						"mode": "direct"
 					}
@@ -47,16 +47,124 @@
 				{
 					"id": "move-to-position",
 					"objectClass": "CloudD",
-					"sid": 256817205904519,
+					"sid": 862015424929826,
 					"behaviorType": "MoveTo",
 					"parameters": {
-						"x": "-400",
+						"x": "-800",
 						"y": "110",
 						"mode": "direct"
+					}
+				},
+				{
+					"id": "set-shadow-color",
+					"objectClass": "prova1",
+					"sid": 277653262946119,
+					"parameters": {
+						"color": "rgbEx(50, 50, 55)"
 					}
 				}
 			],
 			"sid": 407606773814662
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CloudB",
+					"sid": 646938965333096,
+					"parameters": {
+						"object": "col"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "CloudB",
+					"sid": 549574319580197,
+					"parameters": {
+						"x": "2827",
+						"y": "207"
+					}
+				}
+			],
+			"sid": 574508908644987
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CloudA",
+					"sid": 542652330469846,
+					"parameters": {
+						"object": "col"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "CloudA",
+					"sid": 863532831954552,
+					"parameters": {
+						"x": "2243",
+						"y": "191"
+					}
+				}
+			],
+			"sid": 927333095743350
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CloudC",
+					"sid": 166549706353589,
+					"parameters": {
+						"object": "col"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "CloudC",
+					"sid": 358742979695702,
+					"parameters": {
+						"x": "2535",
+						"y": "153"
+					}
+				}
+			],
+			"sid": 216277160747851
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "CloudD",
+					"sid": 513063264052902,
+					"parameters": {
+						"object": "col"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "CloudD",
+					"sid": 630591208288810,
+					"parameters": {
+						"x": "2051",
+						"y": "63"
+					}
+				}
+			],
+			"sid": 618292289468586
 		}
 	],
 	"sid": 519793980296222

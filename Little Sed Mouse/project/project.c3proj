@@ -53,6 +53,14 @@
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "noise",
+			"name": "Noise",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
 		}
 	],
 	"uniqueId": "if8i0rvzl0q",
@@ -68,11 +76,12 @@
 			"CloudC",
 			"CloudB",
 			"CloudD",
-			"ShadowLight",
 			"LighsA",
 			"spotlight",
 			"redLight",
-			"Sprite"
+			"Sprite",
+			"prova1",
+			"col"
 		],
 		"subfolders": []
 	},

@@ -54,14 +54,6 @@
 						"y": "110",
 						"mode": "direct"
 					}
-				},
-				{
-					"id": "set-shadow-color",
-					"objectClass": "prova1",
-					"sid": 277653262946119,
-					"parameters": {
-						"color": "rgbEx(50, 50, 55)"
-					}
 				}
 			],
 			"sid": 407606773814662

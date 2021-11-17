@@ -1,30 +1,36 @@
 {
-	"name": "HouseA",
+	"name": "RectangleShadowCaster",
 	"plugin-id": "Sprite",
-	"sid": 262949414351625,
+	"sid": 181069423534748,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "shadowcaster",
+			"name": "ShadowCaster",
+			"sid": 284458844431886
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 1922,
-						"height": 875,
+						"width": 250,
+						"height": 250,
 						"originX": 0.5,
-						"originY": 0.6182857142857143,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7385336,
+						"imageSpriteId": 7138759,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 493432046919074,
-				"name": "Default",
+				"sid": 370790846225546,
+				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,

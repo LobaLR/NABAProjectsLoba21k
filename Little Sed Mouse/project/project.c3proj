@@ -47,6 +47,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "shadowcaster",
+			"name": "Shadow caster",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "dodge",
 			"name": "Dodge",
@@ -58,6 +66,14 @@
 			"type": "effect",
 			"id": "noise",
 			"name": "Noise",
+			"author": "Scirra",
+			"version": "r268",
+			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "blurhorizontal",
+			"name": "Blur horizontal",
 			"author": "Scirra",
 			"version": "r268",
 			"bundled": false
@@ -81,14 +97,17 @@
 			"redLight",
 			"Sprite",
 			"prova1",
-			"col"
+			"col",
+			"RectangleShadowCaster"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"Cloud"
+		],
 		"subfolders": []
 	},
 	"layouts": {

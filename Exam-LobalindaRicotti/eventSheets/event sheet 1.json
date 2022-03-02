@@ -1,0 +1,371 @@
+{
+	"name": "Event sheet 1",
+	"events": [
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Bit Set",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-moved",
+							"objectClass": "BitHero",
+							"sid": 354625314272541,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "BitHero",
+							"sid": 205870825500666,
+							"parameters": {
+								"animation": "\"Walk Bit\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 225415003651127
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-jumping",
+							"objectClass": "BitHero",
+							"sid": 651941398069888,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "BitHero",
+							"sid": 356471552621650,
+							"parameters": {
+								"animation": "\"Jumping Bit\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 847564976865601
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-stopped",
+							"objectClass": "BitHero",
+							"sid": 852511429262037,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "BitHero",
+							"sid": 327672050850985,
+							"parameters": {
+								"animation": "\"Stop Bit\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 952859997613657
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 639543369856892,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "BitHero",
+							"sid": 943099219916891,
+							"parameters": {
+								"state": "mirrored"
+							}
+						}
+					],
+					"sid": 886675122056871
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 542922480361393,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-mirrored",
+							"objectClass": "BitHero",
+							"sid": 982345461409380,
+							"parameters": {
+								"state": "not-mirrored"
+							}
+						}
+					],
+					"sid": 942517892334171
+				}
+			],
+			"sid": 701848836273742
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Deaths/Enemy and Resp.",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "BitHero",
+							"sid": 929986691163824,
+							"parameters": {
+								"object": "Death"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 455190572327374,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "BitHero",
+							"sid": 802103202090218
+						}
+					],
+					"sid": 890471024680335
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-destroyed",
+							"objectClass": "BitHero",
+							"sid": 456527803205444
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 446960205967559
+						}
+					],
+					"sid": 807308234579781
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 882978985851563,
+							"parameters": {
+								"interval-seconds": "2"
+							}
+						},
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 324843912235038,
+							"parameters": {
+								"interval-seconds": "1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-to-position",
+							"objectClass": "EnemyCloud",
+							"sid": 904021230153495,
+							"behaviorType": "MoveTo",
+							"parameters": {
+								"x": "random (0, 860)",
+								"y": "36",
+								"mode": "direct"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "EnemyCloud",
+							"sid": 644545313430429,
+							"parameters": {
+								"object": "Fulmine",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						}
+					],
+					"sid": 209412341933748
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "BitHero",
+							"sid": 602056440599384,
+							"parameters": {
+								"object": "Fulmine"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "BitHero",
+							"sid": 264122102504087,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "1.0"
+							}
+						},
+						{
+							"id": "wait",
+							"objectClass": "System",
+							"sid": 221548006373878,
+							"parameters": {
+								"seconds": "1.0"
+							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "BitHero",
+							"sid": 766871389345579
+						}
+					],
+					"sid": 303403723885023
+				}
+			],
+			"sid": 905361631925024
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Key",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "BitHero",
+							"sid": 228481750458010,
+							"parameters": {
+								"object": "Key"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "add-child",
+							"objectClass": "BitHero",
+							"sid": 538442601574569,
+							"parameters": {
+								"child": "Key",
+								"transform-x": true,
+								"transform-y": true,
+								"transform-w": true,
+								"transform-h": true,
+								"transform-a": true,
+								"transform-z-elevation": true,
+								"destroy-with-parent": true
+							}
+						}
+					],
+					"sid": 108627350973349
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "BitHero",
+							"sid": 931676479921930,
+							"parameters": {
+								"object": "Door"
+							}
+						},
+						{
+							"id": "pick-children",
+							"objectClass": "BitHero",
+							"sid": 104580574569479,
+							"parameters": {
+								"child": "Key",
+								"which": "own"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Door",
+							"sid": 119862895381434
+						}
+					],
+					"sid": 715097260517231
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Key",
+							"sid": 919615150135671,
+							"parameters": {
+								"object": "Door"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-opacity",
+							"objectClass": "Key",
+							"sid": 348639365864725,
+							"parameters": {
+								"opacity": "0"
+							}
+						}
+					],
+					"sid": 723249712207192
+				}
+			],
+			"sid": 669465254784166
+		}
+	],
+	"sid": 313613132410237
+}

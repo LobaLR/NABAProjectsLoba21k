@@ -1,0 +1,37 @@
+{
+	"name": "Blackscreen",
+	"plugin-id": "Sprite",
+	"sid": 543873570741830,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 229,
+						"height": 165,
+						"originX": 0.5065502183406113,
+						"originY": 0.5575757575757576,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5843694,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 595031439444076,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

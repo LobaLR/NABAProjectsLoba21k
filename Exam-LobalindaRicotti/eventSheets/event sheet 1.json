@@ -219,7 +219,7 @@
 							"objectClass": "EnemyCloud",
 							"sid": 644545313430429,
 							"parameters": {
-								"object": "Fulmine",
+								"object": "Zap",
 								"layer": "0",
 								"image-point": "0",
 								"create-hierarchy": false
@@ -236,7 +236,7 @@
 							"objectClass": "BitHero",
 							"sid": 602056440599384,
 							"parameters": {
-								"object": "Fulmine"
+								"object": "Zap"
 							}
 						}
 					],

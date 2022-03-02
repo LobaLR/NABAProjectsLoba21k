@@ -1,41 +1,47 @@
 {
-	"name": "HouseA",
+	"name": "FloorBased",
 	"plugin-id": "Sprite",
-	"sid": 648168288230911,
+	"sid": 549807386803893,
 	"isGlobal": false,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 790573560190063
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
 			{
 				"frames": [
 					{
-						"width": 1923,
-						"height": 848,
-						"originX": 0.500260010400416,
-						"originY": 0.6049528301886793,
+						"width": 1922,
+						"height": 251,
+						"originX": 0.5041623309053069,
+						"originY": 0.9601593625498008,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4790916,
+						"imageSpriteId": 9389822,
 						"collisionPoly": {
 							"points": [
-								0.0010400416016640667,
 								0,
-								0.999479979199168,
-								0,
-								0.999479979199168,
-								0.9988207547169812,
-								0.0010400416016640667,
-								0.9988207547169812
+								0.05577689243027884,
+								1,
+								0.10358565737051773,
+								0.9994797086368367,
+								0.9960159362549801,
+								0.0005202913631633715,
+								0.9960159362549801
 							]
 						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
-				"sid": 485854220176664,
+				"sid": 130952554287332,
 				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,

@@ -1,0 +1,16 @@
+{
+	"name": "InteractiveObjects",
+	"plugin-id": "Sprite",
+	"sid": 562905033938564,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Door",
+		"Key",
+		"IngTypeA",
+		"FloorBased2",
+		"Death",
+		"FloorBased"
+	]
+}

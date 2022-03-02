@@ -98,18 +98,18 @@
 	"uniqueId": "n22dwaczl69",
 	"objectTypes": {
 		"items": [
-			"Pavimento",
+			"FloorBased",
 			"BitHero",
 			"Keyboard",
-			"Ingranaggi",
-			"HouseA",
-			"Balcone",
+			"IngTypeA",
+			"Homes",
+			"FloorBased2",
 			"Set",
 			"Blackscreen",
 			"Death",
 			"Key",
 			"Door",
-			"Fulmine",
+			"Zap",
 			"EnemyCloud"
 		],
 		"subfolders": []
@@ -117,7 +117,11 @@
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"Character",
+			"Enemy",
+			"InteractiveObjects"
+		],
 		"subfolders": []
 	},
 	"layouts": {

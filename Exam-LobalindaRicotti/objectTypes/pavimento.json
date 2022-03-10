@@ -1,0 +1,55 @@
+{
+	"name": "Pavimento",
+	"plugin-id": "Sprite",
+	"sid": 549807386803893,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 790573560190063
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1922,
+						"height": 251,
+						"originX": 0.5041623309053069,
+						"originY": 0.9601593625498008,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9389822,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.05577689243027884,
+								1,
+								0.10358565737051773,
+								0.9994797086368367,
+								0.9960159362549801,
+								0.0005202913631633715,
+								0.9960159362549801
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 130952554287332,
+				"name": "Default",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
